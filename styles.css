@@ -31,6 +31,7 @@ p {
     margin: 0;
     display: flex;
     justify-content: space-between;
+    border-bottom: 0;
 }
 .divider{
     border-bottom: 1px solid #888989;
@@ -73,4 +74,24 @@ p {
 }
 .right{
     justify-content: flex-end;
+}
+.calories-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.indent{
+    margin-left: 1em;
+}
+.daily-value p:not(.no-divider){
+    border-bottom: 1px solid #888989;
+}
+.double-indent{
+    margin: 2em;
+}
+.note{
+    font-size: 0.6rem;
+    margin: 5px 0 5px 0;
+    padding: 0 8px 0 8px;
+    text-indent: -8px;
 }
