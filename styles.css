@@ -1,22 +1,31 @@
-*{/*O asterísco representa o seletor universal; todos os elementos são
-    afetados pelos atributos colocados nele */
+* {
     box-sizing: border-box;
 }
-body{
-    font-family: "Open Sans", sans-serif;
-    /*Lembre-se de que as fontes com espaços no nome 
+
+/*O asterísco representa o seletor universal; todos os elementos são
+    afetados pelos atributos colocados nele */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Lembre-se de que as fontes com espaços no nome 
     devem ser colocadas entre aspas para CSS.*/
+html {
+    font-size: 16;
 }
-html{
-    font-size: 16; /*altera o tamanho da fonte de todo conteúdo dentro de html
+
+/*altera o tamanho da fonte de todo conteúdo dentro de html
     que não seja alterado por outro seletor*/
-}
-.label{
-    border: 2px solid black; /*sintaxe: tamanho da borda; estilo; cor*/
+.label {
+    border: 2px solid black;
+    /*sintaxe: tamanho da borda; estilo; cor*/
     width: 270px;
-    margin: 20px auto; /*sintaxe: topo | direita | inferior | esquerda */
-    padding: 0 7px; /*sintaxe: topo | direita | inferior | esquerda */
+    margin: 20px auto;
+    /*sintaxe: topo | direita | inferior | esquerda */
+    padding: 0 7px;
+    /*sintaxe: topo | direita | inferior | esquerda */
 }
+
 header h1 {
     /*font-weight: 800; define a grossura dos elementos seletores com fonte*/
     text-align: center;
@@ -27,69 +36,86 @@ header h1 {
     */
     letter-spacing: 0.15px;
 }
+
 p {
     margin: 0;
     display: flex;
     justify-content: space-between;
-    border-bottom: 0;
 }
-.divider{
+
+.divider {
     border-bottom: 1px solid #888989;
     margin: 2px 0 2px 0;
-    
+
 }
-.bold{
+
+.bold {
     font-weight: 800;
 }
-.large{
+
+.large {
     height: 10px;
 }
-.large, .medium{
+
+.large,
+.medium {
     background-color: black;
     border: 0;
 }
-.small-text{
+
+.small-text {
     font-size: 0.85rem;
 }
-.calories-info h2{
+
+.calories-info h2 {
     margin: 0;
 }
-.calories-info{
+
+.calories-info {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
-.left-container p{
+
+.left-container p {
     margin: -5px -2px -5px -2px;
     font-size: 2em;
     font-weight: 700;
 }
-.calories-info span{
+
+.calories-info span {
     font-size: 2.4em;
     font-weight: 700;
     margin: -7px -2px;
 }
-.medium{
+
+.medium {
     height: 5px;
 }
-.right{
+
+.right {
     justify-content: flex-end;
 }
-.calories-info{
+
+.calories-info {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
-.indent{
+
+.indent {
     margin-left: 1em;
 }
-.daily-value p:not(.no-divider){
+
+.daily-value p:not(.no-divider) {
     border-bottom: 1px solid #888989;
 }
-.double-indent{
-    margin: 2em;
+
+.double-indent {
+    margin-left: 2em;
 }
-.note{
+
+.note {
     font-size: 0.6rem;
     margin: 5px 0 5px 0;
     padding: 0 8px 0 8px;
