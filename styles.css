@@ -1,0 +1,55 @@
+*{/*O asterísco representa o seletor universal; todos os elementos são
+    afetados pelos atributos colocados nele */
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    /*Lembre-se de que as fontes com espaços no nome 
+    devem ser colocadas entre aspas para CSS.*/
+}
+html{
+    font-size: 16; /*altera o tamanho da fonte de todo conteúdo dentro de html
+    que não seja alterado por outro seletor*/
+}
+.label{
+    border: 2px solid black; /*sintaxe: tamanho da borda; estilo; cor*/
+    width: 270px;
+    margin: 20px auto; /*sintaxe: topo | direita | inferior | esquerda */
+    padding: 0 7px; /*sintaxe: topo | direita | inferior | esquerda */
+}
+header h1 {
+    /*font-weight: 800; define a grossura dos elementos seletores com fonte*/
+    text-align: center;
+    margin: -4 0 -4 0;
+    /*
+    A propriedade 'letter-spacing' pode ser 
+    usada para ajustar o espaço entre cada caractere de texto em um elemento.
+    */
+    letter-spacing: 0.15px;
+}
+p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.divider{
+    border-bottom: 1px solid #888989;
+    margin: 2px 0 2px 0;
+    
+}
+.bold{
+    font-weight: 800;
+}
+.large{
+    height: 10px;
+}
+.large, .medium{
+    background-color: black;
+    border: 0;
+}
+.small-text{
+    font-size: 0.85rem;
+}
+.calories-info h2{
+    margin: 0;
+}
